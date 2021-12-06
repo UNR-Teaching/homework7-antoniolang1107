@@ -2,7 +2,7 @@
 #define ENTRY_H
 
 template <class KeyType, class ValueType>
-class Entry <KeyType, ValueType> {
+class Entry {
 private:
     KeyType key;
     ValueType value;

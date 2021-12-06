@@ -1,6 +1,7 @@
 #ifndef DICTIONARY
 #define DICTIONARY
 
+template <class KeyType, class ValueType>
 class Dictionary : public DictionaryInterface {
     bool isEmpty() const;
     int getNumberOfEntries() const;
