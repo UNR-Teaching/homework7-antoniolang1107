@@ -13,8 +13,8 @@ public:
     KeyType getKey() const;
     void setValue(const ValueType& newValue);
     void setKey(const KeyType& searchKey);
-    bool operator==(const Entry<class KeyType, class ValueType>& rhs) const;
-    bool operator>(const Entry<class KeyType, class ValueType>& rhs) const;
+    bool operator==(const Entry& rhs) const;
+    bool operator>(const Entry& rhs) const;
 };
 
 #include "entry.cpp"
